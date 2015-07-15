@@ -1,0 +1,96 @@
+a{
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+#wrap{
+  width:1060px;
+  margin:auto;
+}
+
+#header{
+  background:#b2e7ff;
+  font-family: tahoma;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  border-bottom: 2px solid #0ab1ff;
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+}
+
+#mid{
+  display: -webkit-flex; /* Safari */
+  display: -ms-flex; /* IE 10 */
+  display: flex;
+  width: 100%;
+  clear: both;
+}
+
+#left{
+  background: url("exercise2-bg.gif");
+  padding: 25px 10px 25px 10px;
+  width: 250px;
+  display: block;
+  float: left;
+}
+
+#right{
+  background: #ededed;
+  padding: 20px;
+  width: 750px;
+  display: block;
+  float: left;
+}
+
+#footer{
+  background:#3cff78;
+  font-family: tahoma;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  border-bottom: 2px solid #0ab1ff;
+  height: 100px;
+  width: 100%;
+  clear: both;
+  line-height: 100px;
+}
+
+#fixedLeft{
+  font-family: tahoma;
+  font-size: 18px;
+  color: black;
+}
+
+.nav{
+  font-family: tahoma;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.textLeft{
+  font-family: tahoma;
+  font-size: 12px;
+  color: black;
+}
+
+#fixedRight{
+  font-family: tahoma;
+  font-size: 24px;
+  color: black;
+}
+
+.textRight{
+  font-family: tahoma;
+  font-size: 14px;
+  color: #802525;
+}
+
+.standalone{
+  display: block;
+  margin-bottom: 1px;
+}

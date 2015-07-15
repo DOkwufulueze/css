@@ -1,0 +1,88 @@
+.main-menu{
+  width:700px;
+  margin: auto;
+}
+
+.main-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-menu li {
+  float: left;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-menu .link{
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 18px;
+  color: black;
+  background-color: #CFCFCF;
+  border-bottom: 1px solid #6d6d6d;
+  padding: 0px 20px 0px 20px;
+  margin-left: 2px;
+  height: 37px;
+  line-height: 37px;
+}
+
+.main-menu .link:hover{
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 18px;
+  color: #8c8c8c;
+  background-color: white;
+  padding: 0px 20px 0px 20px;
+  margin-left: 2px;
+  height: 37px;
+  border:  1px solid #6d6d6d;
+  border-bottom: 0px;
+  line-height: 37px;
+}
+
+.main-menu ul ul{
+  display: none;
+  width: 178px;
+  border: 1px solid #6d6d6d;
+  border-top: 0px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  list-style-type: none;
+  margin: 0px 0px 0px -21px;
+  overflow: hidden;
+}
+
+.main-menu ul ul li{
+  float: none;
+}
+
+.main-menu ul li:hover > ul{
+  display: block;
+}
+
+.main-menu .sub-link{
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 14px;
+  color: black;
+  padding: 5px 0px 5px 0px;
+  border-bottom: 1px solid #cfcfcf;
+  display: block;
+}
+
+.main-menu .sub-link:hover{
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 14px;
+  color: #bd0707;
+  padding: 5px 0px 5px 0px;
+  border-bottom: 1px solid #cfcfcf;
+  display: block;
+}
