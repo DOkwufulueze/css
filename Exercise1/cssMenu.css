@@ -1,6 +1,15 @@
-.main-menu{
-  width:700px;
+.mid{
+  width: 700px;
   margin: auto;
+}
+
+.main-menu{
+  border-bottom: 1px solid #6d6d6d;
+  display: inline-block;
+  position: fixed;
+  z-index: -1;
+  display: block;
+  height: 37px;
 }
 
 .main-menu ul {
@@ -25,25 +34,41 @@
   font-size: 18px;
   color: black;
   background-color: #CFCFCF;
-  border-bottom: 1px solid #6d6d6d;
   padding: 0px 20px 0px 20px;
   margin-left: 2px;
+  height: 37px;
+  line-height: 37px;box-sizing:border-box;
+}
+
+.main-menu .home{
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 18px;
+  color: black;
+  background-color: #CFCFCF;
+  padding: 0px 20px 0px 20px;
+  border-left:  2px solid #cfcfcf;
+  margin-left: 0px;
   height: 37px;
   line-height: 37px;
 }
 
 .main-menu .link:hover{
-  font-family: Georgia;
-  font-style: italic;
-  font-size: 18px;
   color: #8c8c8c;
   background-color: white;
-  padding: 0px 20px 0px 20px;
-  margin-left: 2px;
-  height: 37px;
   border:  1px solid #6d6d6d;
   border-bottom: 0px;
-  line-height: 37px;
+  margin-left: 0px;
+  height: 38px;
+}
+
+.main-menu .home:hover{
+  color: #8c8c8c;
+  background-color: white;
+  border: 1px solid #6d6d6d;
+  border-bottom: 0px;
+  margin-left: 0px !important;
+  height: 38px;
 }
 
 .main-menu ul ul{
@@ -72,17 +97,13 @@
   font-style: italic;
   font-size: 14px;
   color: black;
-  padding: 5px 0px 5px 0px;
+  padding: 1px 0px 5px 0px;
   border-bottom: 1px solid #cfcfcf;
   display: block;
 }
 
 .main-menu .sub-link:hover{
-  font-family: Georgia;
-  font-style: italic;
-  font-size: 14px;
   color: #bd0707;
   padding: 5px 0px 5px 0px;
-  border-bottom: 1px solid #cfcfcf;
   display: block;
 }

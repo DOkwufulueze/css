@@ -35,7 +35,6 @@ a{
   background: url("exercise2-bg.gif");
   padding: 25px 10px 25px 10px;
   width: 250px;
-  display: block;
   float: left;
 }
 
@@ -44,7 +43,6 @@ a{
   background: #ededed;
   padding: 20px;
   width: 750px;
-  display: block;
   float: left;
 }
 
